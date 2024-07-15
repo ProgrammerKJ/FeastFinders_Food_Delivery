@@ -4,10 +4,11 @@ FeastFinders is a full stack food delivery app that simplifies ordering food onl
 
 ## Video Walthrough HERE: 
 
-## Site Deployed HERE:
+## Site Deployed HERE: https://food-delivery-fe-gjj8.onrender.com
 
 **If you add items in the admin pannel make sure the image is 360 by 280 px please!!!**
-## Admin Panel Deployed HERE: 
+
+## Admin Panel Deployed HERE: https://food-delivery-admin-xtr7.onrender.com
 
 ## Features
 
