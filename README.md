@@ -79,10 +79,10 @@ To run FeastFinders locally, follow these steps:
    cd backend && npm start
 
    # Start frontend
-   cd frontend && npm start
+   cd frontend && npm run dev
 
    # Start admin panel
-   cd admin && npm start
+   cd admin && npm run dev
    ```
 
 ## Running Tests
@@ -106,13 +106,6 @@ To run FeastFinders locally, follow these steps:
 
 We welcome contributions to FeastFinders! Please read our contributing guidelines before submitting pull requests.
 
-## License
-
-[Insert your chosen license here]
-
-## Contact
-
-[Your contact information or link to issues page]
 
 ---
 
