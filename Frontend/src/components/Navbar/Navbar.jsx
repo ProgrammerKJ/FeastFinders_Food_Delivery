@@ -20,7 +20,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={assets.logo} alt="" className="logo" />
+        <img src={assets.logo} alt="Logo" className="logo" />
       </Link>
       <ul className="navbar-menu">
         <Link
@@ -53,27 +53,37 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="navbar-right">
-        <img src={assets.search_icon} alt="" />
+        <img src={assets.search_icon} alt="Search" />
         <div className="navbar-search-icon">
-          <Link to="/cart">
-            <img src={assets.basket_icon} alt="" />
+          <Link to="/cart" data-testid="cart-link">
+            <img src={assets.basket_icon} alt="Shopping basket" />
           </Link>
-          <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
+          <div
+            data-testid="cart-dot"
+            className={getTotalCartAmount() === 0 ? "" : "dot"}
+          ></div>
         </div>
         {!token ? (
-          <button onClick={() => setShowLogin(true)}>Sign In</button>
+          <button
+            data-test="signin-btn-test"
+            onClick={() => setShowLogin(true)}
+          >
+            Sign In
+          </button>
         ) : (
           <div className="navbar-profile">
-            <img src={assets.profile_icon} alt="" />
+            <img src={assets.profile_icon} alt="User profile" />
             <ul className="nav-profile-dropdown">
               <li onClick={() => navigate("/myorders")}>
-                <img src={assets.bag_icon} alt="" />
+                <img src={assets.bag_icon} alt="Orders" />
                 <p>Orders</p>
               </li>
               <hr />
               <li>
-                <img src={assets.logout_icon} alt="" />
-                <p onClick={logout}>Logout</p>
+                <img src={assets.logout_icon} alt="Logout" />
+                <p onClick={logout} data-testid="logout-button">
+                  Logout
+                </p>
               </li>
             </ul>
           </div>

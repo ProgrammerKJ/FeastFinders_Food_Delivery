@@ -7,14 +7,24 @@ import { assets } from "../../assets/assets";
 const MyOrders = () => {
   const { url, token } = useContext(StoreContext);
   const [data, setData] = useState([]);
+  const [error, setError] = useState(null);
 
   const fetchOrders = async () => {
-    const response = await axios.post(
-      url + "/api/order/userorders",
-      {},
-      { headers: { token } }
-    );
-    setData(response.data.data);
+    try {
+      const response = await axios.post(
+        url + "/api/order/userorders",
+        {},
+        { headers: { token } }
+      );
+      if (response.data && response.data.data) {
+        setData(response.data.data);
+      } else {
+        throw new Error("Invalid response format");
+      }
+    } catch (err) {
+      console.error("Error fetching orders:", err);
+      setError("Failed to fetch orders. Please try again later.");
+    }
   };
 
   useEffect(() => {
@@ -22,6 +32,10 @@ const MyOrders = () => {
       fetchOrders();
     }
   }, [token]);
+
+  if (error) {
+    return <div className="error-message">{error}</div>;
+  }
 
   return (
     <div className="my-orders">

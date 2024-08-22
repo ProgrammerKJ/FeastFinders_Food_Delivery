@@ -45,7 +45,7 @@ const Add = ({ url }) => {
 
   return (
     <div className="add">
-      <form className="flex-col" onSubmit={onSubmitHandler}>
+      <form className="flex-col" onSubmit={onSubmitHandler} role="form">
         <div className="add-img-upload flex-col">
           <p>Upload Image</p>
           <label htmlFor="image">
@@ -60,6 +60,7 @@ const Add = ({ url }) => {
             id="image"
             hidden
             required
+            data-testid="file-input"
           />
         </div>
         <div className="add-product-name flex-col">

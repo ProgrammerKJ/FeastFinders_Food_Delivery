@@ -22,13 +22,15 @@ const LoginPopup = ({ setShowLogin }) => {
   const onLogin = async (event) => {
     event.preventDefault();
     let newUrl = url;
+    let loginData = { email: data.email, password: data.password };
     if (currState === "Login") {
       newUrl += "/api/user/login";
     } else {
       newUrl += "/api/user/register";
+      loginData.name = data.name;
     }
 
-    const response = await axios.post(newUrl, data);
+    const response = await axios.post(newUrl, loginData);
 
     if (response.data.success) {
       setToken(response.data.token);
@@ -41,7 +43,7 @@ const LoginPopup = ({ setShowLogin }) => {
 
   return (
     <div className="login-popup">
-      <form onSubmit={onLogin} className="login-popup-container">
+      <form onSubmit={onLogin} className="login-popup-container" role="form">
         <div className="login-popup-title">
           <h2>{currState}</h2>
           <img
@@ -71,6 +73,7 @@ const LoginPopup = ({ setShowLogin }) => {
             type="email"
             placeholder="Your Email"
             required
+            data-test="email-input"
           />
           <input
             name="password"
@@ -79,13 +82,14 @@ const LoginPopup = ({ setShowLogin }) => {
             type="password"
             placeholder="Password"
             required
+            data-test="password-input"
           />
         </div>
-        <button type="submit">
+        <button type="submit" data-testid="login-button">
           {currState === "Sign Up" ? "Create Account" : "Login"}
         </button>
         <div className="login-popup-condition">
-          <input type="checkbox" required />
+          <input type="checkbox" required data-test="agree-to-terms-test" />
           <p>By continuing, I agree to the terms of use & privacy policy.</p>
         </div>
         {currState === "Login" ? (
@@ -96,7 +100,12 @@ const LoginPopup = ({ setShowLogin }) => {
         ) : (
           <p>
             Already have an account?{" "}
-            <span onClick={() => setCurrState("Login")}>Login here</span>
+            <span
+              data-test="span-login-here-btn"
+              onClick={() => setCurrState("Login")}
+            >
+              Login here
+            </span>
           </p>
         )}
       </form>

@@ -10,8 +10,8 @@ const AppDownload = () => {
         Feast Finder App
       </p>
       <div className="app-download-platforms">
-        <img src={assets.play_store} alt="" />
-        <img src={assets.app_store} alt="" />
+        <img src={assets.play_store} alt="Google Play" />
+        <img src={assets.app_store} alt="App Store" />
       </div>
     </div>
   );

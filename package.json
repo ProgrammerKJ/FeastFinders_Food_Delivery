@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.12.45",
+    "babel-plugin-istanbul": "^7.0.0",
+    "cypress": "^13.13.3",
+    "istanbul-lib-coverage": "^3.2.2",
+    "nyc": "^17.0.0"
+  },
+  "scripts": {
+    "start:backend": "cd Backend && npm start",
+    "start:frontend": "cd Frontend && npm run dev",
+    "start:all": "npm-run-all --parallel start:Backend start:Frontend",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "start-server-and-test start:all http://localhost:5173 cypress:run"
+  }
+}
