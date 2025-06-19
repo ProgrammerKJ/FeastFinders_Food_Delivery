@@ -87,12 +87,14 @@ Quick Start
 
 Clone the repository:
 
-bashgit clone https://github.com/programmerKJ/FeastFinders_Food_Delivery.git
+bash
+git clone https://github.com/programmerKJ/FeastFinders_Food_Delivery.git
 cd FeastFinders_Food_Delivery
 
 Install dependencies for all modules:
 
-bash# Install backend dependencies
+bash
+# Install backend dependencies
 cd backend && npm install
 
 # Install frontend dependencies  
@@ -110,7 +112,8 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 
 Start all services:
 
-bash# Terminal 1 - Backend API
+bash
+# Terminal 1 - Backend API
 cd backend && npm start
 
 # Terminal 2 - Customer Frontend
@@ -121,14 +124,14 @@ cd admin && npm run dev
 
 Access Applications:
 
-
 Customer App: http://localhost:5173
 Admin Panel: http://localhost:5174
 Backend API: http://localhost:4000
 
 🧪 Testing
 Run All Tests
-bash# Frontend tests
+bash
+# Frontend tests
 cd frontend && npm run test
 
 # Backend tests  
