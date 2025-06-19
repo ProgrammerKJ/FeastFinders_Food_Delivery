@@ -1,4 +1,4 @@
-markdown# FeastFinders 🍕
+# FeastFinders 🍕
 
 **A comprehensive full-stack food delivery application with real-time order tracking, secure payments, and administrative management.**
 
