@@ -275,4 +275,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 **Built with ❤️ by Krishna Joshi**  
-[LinkedIn](https://linkedin.com/in/krishnajoshi28)
+[LinkedIn](https://linkedin.com/in/krishnajoshi28) | [Portfolio](https://krishnasportfolio23.netlify.app)
