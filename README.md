@@ -73,10 +73,6 @@ Cypress E2E Testing
 
 ### 🍽️ Customer Experience
 
-<br>
-<br>
-<br>
-
 #### Landing Page & Navigation
 ![Homepage Hero Section](https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007)
 *Clean, modern landing page with compelling hero section and clear navigation*
