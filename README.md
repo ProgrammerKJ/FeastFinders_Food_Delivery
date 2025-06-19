@@ -83,10 +83,11 @@ Cypress E2E Testing
 - MongoDB (local or Atlas)
 - Stripe account for payment testing
 
-### Quick Start
-1. **Clone the repository:**
-```bash
-git clone https://github.com/programmerKJ/FeastFinders_Food_Delivery.git
+Quick Start
+
+Clone the repository:
+
+bashgit clone https://github.com/programmerKJ/FeastFinders_Food_Delivery.git
 cd FeastFinders_Food_Delivery
 
 Install dependencies for all modules:
