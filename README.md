@@ -73,39 +73,61 @@ Cypress E2E Testing
 
 ### 🍽️ Customer Experience
 
+
+
 #### Landing Page & Navigation
 ![Homepage Hero Section](https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007)
 *Clean, modern landing page with compelling hero section and clear navigation*
 
+
+
 ![Menu Categories](https://github.com/user-attachments/assets/b4d12c3c-8437-445c-9749-42925341329d)
 *Browse food categories with visual menu organization and featured dishes*
+
+
 
 #### User Authentication
 ![Sign Up Process](https://github.com/user-attachments/assets/57c6a1b1-70eb-482d-a671-c7381fec06ae)
 *Streamlined user registration with form validation*
 
+
+
 ![Login Interface](https://github.com/user-attachments/assets/c3c6e332-3c45-40e4-b7a3-cd8f3202c9cc)
 *Secure login functionality with clean modal design*
+
+
 
 #### Shopping Experience
 ![Add to Cart](https://github.com/user-attachments/assets/934d3e72-9091-4a83-9bf8-8d684db4f853)
 *Easy item selection with quantity controls and instant cart updates*
 
+
+
 ![Shopping Cart](https://github.com/user-attachments/assets/e7b814ec-941c-473f-97ea-ea852ebc3c44)
 *Dynamic cart management with real-time price calculation*
+
+
 
 #### Checkout & Payment
 ![Checkout Process](https://github.com/user-attachments/assets/a360de32-449c-4697-aae3-48306beb0311)
 *Seamless checkout flow with delivery information*
 
+
+
 ![Stripe Payment Integration](https://github.com/user-attachments/assets/fcf1d099-0975-4184-bd2d-720ea2e3b4d8)
 *Secure payment processing with Stripe integration*
+
+
 
 #### Order Management
 ![Order Tracking](https://github.com/user-attachments/assets/dde7e928-de0f-4bf4-b5d2-3cfe631cd9f2)
 *Real-time order status tracking and order history*
 
+
+
 ---
+
+
 
 ### 🎛️ Admin Panel
 
@@ -113,12 +135,18 @@ Cypress E2E Testing
 ![Add New Items](https://github.com/user-attachments/assets/6a81a030-fcbc-4607-a7d7-10eaabe8e59c)
 *Admin interface for adding new menu items with image upload*
 
+
+
 ![Manage Menu Items](https://github.com/user-attachments/assets/f0e683a4-3484-4629-b735-882ce2ad50a0)
 *Comprehensive menu item management with edit/delete functionality*
+
+
 
 #### Order Administration
 ![Order Management Dashboard](https://github.com/user-attachments/assets/918a97d4-25ea-464c-a010-27fecb02497b)
 *Admin dashboard for processing and updating order statuses*
+
+
 
 ## 🚀 Installation and Setup
 
