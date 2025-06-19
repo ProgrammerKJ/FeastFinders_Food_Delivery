@@ -74,16 +74,22 @@ Cypress E2E Testing
 ### 🍽️ Customer Experience
 
 <br>
+<br>
+<br>
 
 #### Landing Page & Navigation
 ![Homepage Hero Section](https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007)
 *Clean, modern landing page with compelling hero section and clear navigation*
 
 <br>
+<br>
+<br>
 
 ![Menu Categories](https://github.com/user-attachments/assets/b4d12c3c-8437-445c-9749-42925341329d)
 *Browse food categories with visual menu organization and featured dishes*
 
+<br>
+<br>
 <br>
 
 #### User Authentication
@@ -91,10 +97,14 @@ Cypress E2E Testing
 *Streamlined user registration with form validation*
 
 <br>
+<br>
+<br>
 
 ![Login Interface](https://github.com/user-attachments/assets/c3c6e332-3c45-40e4-b7a3-cd8f3202c9cc)
 *Secure login functionality with clean modal design*
 
+<br>
+<br>
 <br>
 
 #### Shopping Experience
@@ -102,10 +112,14 @@ Cypress E2E Testing
 *Easy item selection with quantity controls and instant cart updates*
 
 <br>
+<br>
+<br>
 
 ![Shopping Cart](https://github.com/user-attachments/assets/e7b814ec-941c-473f-97ea-ea852ebc3c44)
 *Dynamic cart management with real-time price calculation*
 
+<br>
+<br>
 <br>
 
 #### Checkout & Payment
@@ -113,16 +127,22 @@ Cypress E2E Testing
 *Seamless checkout flow with delivery information*
 
 <br>
+<br>
+<br>
 
 ![Stripe Payment Integration](https://github.com/user-attachments/assets/fcf1d099-0975-4184-bd2d-720ea2e3b4d8)
 *Secure payment processing with Stripe integration*
 
+<br>
+<br>
 <br>
 
 #### Order Management
 ![Order Tracking](https://github.com/user-attachments/assets/dde7e928-de0f-4bf4-b5d2-3cfe631cd9f2)
 *Real-time order status tracking and order history*
 
+<br>
+<br>
 <br>
 
 ---
@@ -136,16 +156,22 @@ Cypress E2E Testing
 *Admin interface for adding new menu items with image upload*
 
 <br>
+<br>
+<br>
 
 ![Manage Menu Items](https://github.com/user-attachments/assets/f0e683a4-3484-4629-b735-882ce2ad50a0)
 *Comprehensive menu item management with edit/delete functionality*
 
+<br>
+<br>
 <br>
 
 #### Order Administration
 ![Order Management Dashboard](https://github.com/user-attachments/assets/918a97d4-25ea-464c-a010-27fecb02497b)
 *Admin dashboard for processing and updating order statuses*
 
+<br>
+<br>
 <br>
 
 ## 🚀 Installation and Setup
