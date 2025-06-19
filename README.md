@@ -72,21 +72,20 @@ Cypress E2E Testing
 ## 📱 Screenshots
 
 ### Customer Interface
-![Landing Page](<img width="1704" alt="Screenshot 2025-06-19 at 1 39 39 PM" src="https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007" />)
-![Landing Page - Menu](<img width="1701" alt="Screenshot 2025-06-19 at 1 39 57 PM" src="https://github.com/user-attachments/assets/b4d12c3c-8437-445c-9749-42925341329d" />)
-![Signup Popup](<img width="1708" alt="Screenshot 2025-06-19 at 1 40 06 PM" src="https://github.com/user-attachments/assets/57c6a1b1-70eb-482d-a671-c7381fec06ae" />)
-![Login Popup](<img width="1702" alt="Screenshot 2025-06-19 at 1 40 20 PM" src="https://github.com/user-attachments/assets/c3c6e332-3c45-40e4-b7a3-cd8f3202c9cc" />)
-![Add Item Functionality](<img width="1702" alt="Screenshot 2025-06-19 at 1 40 54 PM" src="https://github.com/user-attachments/assets/934d3e72-9091-4a83-9bf8-8d684db4f853" />)
-![Shopping Cart](<img width="1705" alt="Screenshot 2025-06-19 at 1 41 05 PM" src="https://github.com/user-attachments/assets/e7b814ec-941c-473f-97ea-ea852ebc3c44" />)
-![Landing Page](<img width="1704" alt="Screenshot 2025-06-19 at 1 39 39 PM" src="https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007" />)
-![Checkout Functionality](<img width="1704" alt="Screenshot 2025-06-19 at 1 41 19 PM" src="https://github.com/user-attachments/assets/a360de32-449c-4697-aae3-48306beb0311" />)
-![Stripe Functionality](<img width="1702" alt="Screenshot 2025-06-19 at 1 41 58 PM" src="https://github.com/user-attachments/assets/fcf1d099-0975-4184-bd2d-720ea2e3b4d8" />)
-![Orders Page](<img width="1706" alt="Screenshot 2025-06-19 at 1 42 31 PM" src="https://github.com/user-attachments/assets/dde7e928-de0f-4bf4-b5d2-3cfe631cd9f2" />)
+![Landing Page](https://github.com/user-attachments/assets/993ce4dd-f680-40a6-9a93-64f88a985007)
+![Landing Page - Menu](https://github.com/user-attachments/assets/b4d12c3c-8437-445c-9749-42925341329d)
+![Signup Popup](https://github.com/user-attachments/assets/57c6a1b1-70eb-482d-a671-c7381fec06ae)
+![Login Popup](https://github.com/user-attachments/assets/c3c6e332-3c45-40e4-b7a3-cd8f3202c9cc)
+![Add Item Functionality](https://github.com/user-attachments/assets/934d3e72-9091-4a83-9bf8-8d684db4f853)
+![Shopping Cart](https://github.com/user-attachments/assets/e7b814ec-941c-473f-97ea-ea852ebc3c44)
+![Checkout Functionality](https://github.com/user-attachments/assets/a360de32-449c-4697-aae3-48306beb0311)
+![Stripe Functionality](https://github.com/user-attachments/assets/fcf1d099-0975-4184-bd2d-720ea2e3b4d8)
+![Orders Page](https://github.com/user-attachments/assets/dde7e928-de0f-4bf4-b5d2-3cfe631cd9f2)
 
 ### Admin Panel
-![Admin Dashboard - Add Items](<img width="1704" alt="Screenshot 2025-06-19 at 1 42 52 PM" src="https://github.com/user-attachments/assets/6a81a030-fcbc-4607-a7d7-10eaabe8e59c" />)
-![Admin Dashboard - List Items](<img width="1705" alt="Screenshot 2025-06-19 at 1 43 03 PM" src="https://github.com/user-attachments/assets/f0e683a4-3484-4629-b735-882ce2ad50a0" />)
-![Admin Dashboard - Orders](<img width="1706" alt="Screenshot 2025-06-19 at 1 43 12 PM" src="https://github.com/user-attachments/assets/918a97d4-25ea-464c-a010-27fecb02497b" />)
+![Admin Dashboard - Add Items](https://github.com/user-attachments/assets/6a81a030-fcbc-4607-a7d7-10eaabe8e59c)
+![Admin Dashboard - List Items](https://github.com/user-attachments/assets/f0e683a4-3484-4629-b735-882ce2ad50a0)
+![Admin Dashboard - Orders](https://github.com/user-attachments/assets/918a97d4-25ea-464c-a010-27fecb02497b)
 
 ## 🚀 Installation and Setup
 
