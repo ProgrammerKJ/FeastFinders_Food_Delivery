@@ -272,11 +272,7 @@ cd frontend && npm run cypress:open
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
 ---
 
 **Built with ❤️ by Krishna Joshi**  
-[LinkedIn](https://linkedin.com/in/krishnajoshi28) | [Portfolio](krishnasportfolio23.netlify.app)
+[LinkedIn](https://linkedin.com/in/krishnajoshi28)
