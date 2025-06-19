@@ -60,11 +60,14 @@
 - **90%+ test coverage** across all components
 
 ## 🏗️ Architecture
+
+```
 Frontend (React) ←→ Backend API (Express) ←→ MongoDB
-↓                    ↓
+     ↓                    ↓
 Admin Panel (React)   Stripe Payment API
-↓
+     ↓
 Cypress E2E Testing
+```
 
 ## 📱 Screenshots
 
@@ -83,17 +86,16 @@ Cypress E2E Testing
 - MongoDB (local or Atlas)
 - Stripe account for payment testing
 
-Quick Start
+### Quick Start
 
-Clone the repository:
-
-bash
+1. **Clone the repository:**
+```bash
 git clone https://github.com/programmerKJ/FeastFinders_Food_Delivery.git
 cd FeastFinders_Food_Delivery
+```
 
-Install dependencies for all modules:
-
-bash
+2. **Install dependencies for all modules:**
+```bash
 # Install backend dependencies
 cd backend && npm install
 
@@ -102,17 +104,18 @@ cd ../frontend && npm install
 
 # Install admin panel dependencies
 cd ../admin && npm install
+```
 
-Environment Setup:
-Create .env files in backend directory:
-
-envMONGODB_URI=your_mongodb_connection_string
+3. **Environment Setup:**
+Create `.env` files in backend directory:
+```env
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key
+```
 
-Start all services:
-
-bash
+4. **Start all services:**
+```bash
 # Terminal 1 - Backend API
 cd backend && npm start
 
@@ -121,16 +124,17 @@ cd frontend && npm run dev
 
 # Terminal 3 - Admin Panel
 cd admin && npm run dev
+```
 
-Access Applications:
+5. **Access Applications:**
+- Customer App: `http://localhost:5173`
+- Admin Panel: `http://localhost:5174`  
+- Backend API: `http://localhost:4000`
 
-Customer App: http://localhost:5173
-Admin Panel: http://localhost:5174
-Backend API: http://localhost:4000
+## 🧪 Testing
 
-🧪 Testing
-Run All Tests
-bash
+### Run All Tests
+```bash
 # Frontend tests
 cd frontend && npm run test
 
@@ -142,40 +146,46 @@ cd admin && npm run test
 
 # E2E tests
 cd frontend && npm run cypress:open
-Test Coverage
+```
 
-Backend API: 95% coverage with Jest
-Frontend Components: 90% coverage with Vitest
-E2E User Flows: Complete checkout process testing
+### Test Coverage
+- **Backend API:** 95% coverage with Jest
+- **Frontend Components:** 90% coverage with Vitest
+- **E2E User Flows:** Complete checkout process testing
 
-🎯 Technical Highlights
+## 🎯 Technical Highlights
 
-Modular Architecture: Separate frontend, backend, and admin applications
-Real-time Updates: Order status changes reflected instantly
-Secure Payments: PCI-compliant Stripe integration
-Comprehensive Testing: Unit, integration, and E2E test coverage
-Production Deployment: Hosted on Render with CI/CD pipeline
-Responsive Design: Mobile-first approach with CSS Grid/Flexbox
+- **Modular Architecture:** Separate frontend, backend, and admin applications
+- **Real-time Updates:** Order status changes reflected instantly
+- **Secure Payments:** PCI-compliant Stripe integration
+- **Comprehensive Testing:** Unit, integration, and E2E test coverage
+- **Production Deployment:** Hosted on Render with CI/CD pipeline
+- **Responsive Design:** Mobile-first approach with CSS Grid/Flexbox
 
-📊 Performance Metrics
+## 📊 Performance Metrics
 
-Load Time: < 2 seconds initial page load
-API Response: < 200ms average response time
-Test Coverage: 90%+ across all modules
-Mobile Responsive: Optimized for all device sizes
+- **Load Time:** < 2 seconds initial page load
+- **API Response:** < 200ms average response time
+- **Test Coverage:** 90%+ across all modules
+- **Mobile Responsive:** Optimized for all device sizes
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
- Real-time chat support
- GPS delivery tracking
- Push notifications
- Multi-restaurant support
- Advanced analytics dashboard
+- [ ] Real-time chat support
+- [ ] GPS delivery tracking
+- [ ] Push notifications
+- [ ] Multi-restaurant support
+- [ ] Advanced analytics dashboard
 
-🤝 Contributing
+## 🤝 Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
-📝 License
+
+## 📝 License
+
 This project is licensed under the MIT License.
 
-Built with ❤️ by Krishna Joshi
-LinkedIn | Portfolio
+---
+
+**Built with ❤️ by Krishna Joshi**  
+[LinkedIn](https://linkedin.com/in/krishnajoshi28) | [Portfolio](https://krishna-joshi-portfolio.com)
